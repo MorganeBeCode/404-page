@@ -1,0 +1,123 @@
+body {
+    color: rgb(202, 64, 0);
+    background: linear-gradient(rgb(120, 255, 42),rgb(168, 253, 119));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 170%;
+    font-family: 'Rock Salt', cursive;
+}
+
+p {
+    text-align: center;
+    font-size: 140%;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+h2 {
+    text-align: center;    
+    font-size: 600%;
+    font-family: 'Rock Salt', cursive;
+}
+
+#hinge:hover {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-name: hinge;
+    animation-name: hinge;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+#retour {
+    background-color: rgb(255, 241, 51);
+    border: none;
+    padding: 15px 32px;
+    border-radius: 10px;
+    position: absolute;
+    right: 60px;
+    bottom: 40px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+a {
+    color: rgb(202, 64, 0);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 125%;
+}
+
+@-webkit-keyframes hinge {
+    0% {
+      -webkit-transform-origin: center;
+      transform-origin: center;
+      -webkit-animation-timing-function: ease-in-out;
+      animation-timing-function: ease-in-out;
+    }
+  
+    20%, 60% {
+      -webkit-transform: rotate3d(0, 0, 1, 80deg);
+      transform: rotate3d(0, 0, 1, 80deg);
+      -webkit-transform-origin: center;
+      transform-origin: center;
+      -webkit-animation-timing-function: ease-in-out;
+      animation-timing-function: ease-in-out;
+    }
+  
+    40%, 85% {
+      -webkit-transform: rotate3d(0, 0, 1, 60deg);
+      transform: rotate3d(0, 0, 1, 60deg);
+      -webkit-transform-origin: center;
+      transform-origin: center;
+      -webkit-animation-timing-function: ease-in-out;
+      animation-timing-function: ease-in-out;
+      opacity: 1;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 700px, 0);
+      transform: translate3d(0, 700px, 0);
+      opacity: 0;
+    }
+  }
+  
+@keyframes hinge {
+    0% {
+      -webkit-transform-origin: center;
+      transform-origin: center;
+      -webkit-animation-timing-function: ease-in-out;
+      animation-timing-function: ease-in-out;
+    }
+  
+    20%, 60% {
+      -webkit-transform: rotate3d(0, 0, 1, 80deg);
+      transform: rotate3d(0, 0, 1, 80deg);
+      -webkit-transform-origin: center;
+      transform-origin: center;
+      -webkit-animation-timing-function: ease-in-out;
+      animation-timing-function: ease-in-out;
+    }
+  
+    40%, 85% {
+      -webkit-transform: rotate3d(0, 0, 1, 60deg);
+      transform: rotate3d(0, 0, 1, 60deg);
+      -webkit-transform-origin: center;
+      transform-origin: center;
+      -webkit-animation-timing-function: ease-in-out;
+      animation-timing-function: ease-in-out;
+      opacity: 1;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 700px, 0);
+      transform: translate3d(0, 700px, 0);
+      opacity: 0;
+    }
+  }
